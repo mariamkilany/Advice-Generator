@@ -24,8 +24,26 @@
   color: white;
 }
 
+figcaption{
+  padding: 25px;
+  cursor: pointer;
+  width: 350px;
+}
+
+figcaption:hover{
+  background-color: #292930;
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.blockquote-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +53,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.random-btn{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.advCon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
 }
